@@ -1,0 +1,92 @@
+.card-img-top {
+    width: 100%;
+    height: 35vh;
+    object-fit: contain;
+    background: #00000008;
+}
+
+.card-details{
+    display: flex;
+    justify-content: left;
+    padding-left: 1.5rem;
+    margin-bottom: 0.25rem;
+    color:gray;
+}
+
+.card-title{
+    display: flex;
+    justify-content: left;
+    font-weight: 700;
+    padding-left:1.5rem;
+    padding-top:2rem;
+    font-size: 1.2rem;
+}
+
+.footer-buttons{
+    display: flex;
+    justify-content: space-around;
+}
+
+.form-buttons{
+    float:right
+}
+
+.cancel-form-button{
+    margin-right: 10px;
+    border: 0.5px solid lightgrey;
+}
+
+.like-button{
+    color:rgb(241, 103, 103);
+    border: none;
+    background: none;
+}
+
+.like-button:hover{
+    color:red;
+    border: none;
+    background: none;
+    
+}
+
+.edit-button{
+    color:lightgray;
+    border:none;
+    background: none;
+}
+
+.edit-button:hover{
+    color:blue;
+    border:none;
+    background: none;
+}
+.delete-button{
+    color:lightgray;
+    border:none;
+    background:none;
+}
+.delete-button:hover{
+    color:red;
+    border:none;
+    background:none;
+}
+
+.card-footer{
+    margin-top: 2rem;
+}
+
+.Form-Field{
+    margin-bottom: 2rem;
+    display: inline;
+    width: 75%;
+    position: sticky;
+    left: 39%;
+  }
+  
+  .required-field::before {
+    content: "* ";
+    color: red;
+  }
+  .Form-Field-Title{
+    font-weight: 600;
+  }
